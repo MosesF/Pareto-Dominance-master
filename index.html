@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://getbootstrap.com/docs/4.0/examples/navbar-top/ -->
+<html lang="en" class="gr__getbootstrap_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Pareto Dominance Algorithm</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/navbar-top.css" rel="stylesheet">
+  </head>
+
+  <body data-gr-c-s-loaded="true" class="vsc-initialized">
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <a class="navbar-brand" href="http://getbootstrap.com/docs/4.0/examples/navbar-top/#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://getbootstrap.com/docs/4.0/examples/navbar-top/#">Pareto Dominance <span class="sr-only">(current)</span></a>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Pareto Dominance Algorithm</h1>
+        <blockquote class="blockquote"><i>"For a given system, the Pareto frontier or Pareto set is the set of parameterizations (allocations) that are all Pareto efficient. Finding Pareto frontiers is particularly useful in engineering. By yielding all of the potentially optimal solutions, a designer can make focused tradeoffs within this constrained set of parameters, rather than needing to consider the full ranges of parameters."</i></blockquote>
+        
+      </div>
+    </div>
+      
+      
+<center>
+<button type="button" class="btn btn-primary" onclick="scatter20()">20 point</button>
+<button type="button" class="btn btn-primary" onclick="scatter100()">100 point</button>
+<button type="button" class="btn btn-primary" onclick="scatter9999()">9999 points</button>
+<button type="button" class="btn btn-primary" onclick="HighHigh()">High u, High v (Red)</button>
+<button type="button" class="btn btn-primary" onclick="LowHigh()">Low u, High v (Orange)</button>
+<button type="button" class="btn btn-primary" onclick="LowLow()">Low u, Low v (Green)</button>
+<button type="button" class="btn btn-primary" onclick="HighLow()">High u, Low v (Purple)</button>
+<button type="button" class="btn btn-primary" onclick="All()">All</button>
+</center>
+
+
+<!--Drawing the chart in the specified place --> 
+<center><div id="chart_div" style="width: 1800px; height: 800px;"></div></center>
+<!--<div id="container" style="min-width: 310px; height: 400px; max-width: 700px; margin: 0 auto"></div>!-->
+<!-- Code for the Graph!-->
+      
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="js/pareto.js"></script>
+    
+      
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+    
+  <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script class="jsbin" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+  
+
+</body></html>
